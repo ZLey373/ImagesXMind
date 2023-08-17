@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T09:01:27.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" version="21.6.8" etag="MFvyIuKVYxL_lkS-F9hG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T09:06:20.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="b9aq0zHK9a6z5TUxyvkf" version="21.6.8" type="github">
   <diagram name="第 1 页" id="pLRH8eR-t9z2tRRE0hiV">
-    <mxGraphModel>
+    <mxGraphModel dx="951" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G8OIaerAAfeS6We1SIX4-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G8OIaerAAfeS6We1SIX4-1" target="G8OIaerAAfeS6We1SIX4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-1" value="分配内存数据结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-2" value="ext2_new_inode()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G8OIaerAAfeS6We1SIX4-3" target="G8OIaerAAfeS6We1SIX4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-3" value="根据位图查找可用inode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G8OIaerAAfeS6We1SIX4-5" target="G8OIaerAAfeS6We1SIX4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-5" value="查找成功标记为已使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G8OIaerAAfeS6We1SIX4-7" value="初始化inode内存数据结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
