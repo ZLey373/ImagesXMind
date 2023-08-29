@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T08:56:07.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="iUyd21xlZoR-y1F94a3y" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T09:22:45.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="yKh_uMKVv9tkRq1ZGcU-" version="21.6.9" type="github">
   <diagram name="第 1 页" id="6Mm-rfvI0Iz15GJigM67">
-    <mxGraphModel dx="570" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="832" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnkllxBWmu_3yrrJ35d1-3" value="Tomcat服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;curved=1;" edge="1" parent="1" source="cnkllxBWmu_3yrrJ35d1-3" target="cnkllxBWmu_3yrrJ35d1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-3" value="Tomcat服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="125" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnkllxBWmu_3yrrJ35d1-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="cnkllxBWmu_3yrrJ35d1-6" target="cnkllxBWmu_3yrrJ35d1-7">
@@ -45,31 +48,34 @@
         <mxCell id="cnkllxBWmu_3yrrJ35d1-6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Servlet接口的service方法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="420" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnkllxBWmu_3yrrJ35d1-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Times New Roman&quot;&gt;void &lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;service&lt;/span&gt;(&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ServletRequest &lt;/span&gt;req, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ServletResponse &lt;/span&gt;res)&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;void &lt;span style=&quot;color: rgb(0, 98, 122);&quot;&gt;service&lt;/span&gt;(&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ServletRequest &lt;/span&gt;req, &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ServletResponse &lt;/span&gt;res)&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="390" y="420" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cnkllxBWmu_3yrrJ35d1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cnkllxBWmu_3yrrJ35d1-13" target="cnkllxBWmu_3yrrJ35d1-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnkllxBWmu_3yrrJ35d1-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;GenericServlet&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="490" width="100" height="60" as="geometry" />
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;GenericServlet&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cnkllxBWmu_3yrrJ35d1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cnkllxBWmu_3yrrJ35d1-15" target="cnkllxBWmu_3yrrJ35d1-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnkllxBWmu_3yrrJ35d1-15" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;HttpServlet&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="207.5" y="585" width="105" height="55" as="geometry" />
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-15" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;HttpServlet&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="557" width="105" height="43" as="geometry" />
         </mxCell>
         <mxCell id="cnkllxBWmu_3yrrJ35d1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cnkllxBWmu_3yrrJ35d1-17" target="cnkllxBWmu_3yrrJ35d1-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cnkllxBWmu_3yrrJ35d1-21" value="response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnkllxBWmu_3yrrJ35d1-20">
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-21" value="响应参数response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnkllxBWmu_3yrrJ35d1-20">
           <mxGeometry x="0.0699" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cnkllxBWmu_3yrrJ35d1-17" value="自定义方法实现service中的方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="670" width="110" height="50" as="geometry" />
+          <mxGeometry x="205" y="640" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cnkllxBWmu_3yrrJ35d1-27" value="创建请求参数Request和响应参数Response" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
