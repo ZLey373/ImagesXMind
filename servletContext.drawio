@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T02:21:52.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.6.9" etag="REZTf6ItWoIqMFmwg0z_" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T02:25:41.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="3fD-VWJOUUqvoxEW1_2z" version="21.6.9" type="github">
   <diagram name="第 1 页" id="EOOk3Vqcet2I2vo9lN5l">
-    <mxGraphModel>
+    <mxGraphModel dx="688" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="if_uM2dNDGDG-orSWEuw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="if_uM2dNDGDG-orSWEuw-1" target="if_uM2dNDGDG-orSWEuw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-1" value="servletContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="if_uM2dNDGDG-orSWEuw-2" target="if_uM2dNDGDG-orSWEuw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-2" value="servlet01&lt;br&gt;URL:/s1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-3" value="servlet02&lt;br&gt;URL:/s2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-7" value="servlet01如何与servlet02通信呢" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-8" value="内容赋值给容器" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="if_uM2dNDGDG-orSWEuw-9" value="从容器中获得内容" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
