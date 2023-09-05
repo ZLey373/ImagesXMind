@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T08:00:44.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" version="21.7.2" etag="L1cIos-8_7w3dNdH8ytk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T08:21:29.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="dOfZQyXog7dqAn2ojkhO" version="21.7.2" type="github">
   <diagram name="第 1 页" id="WM5SELjBoAM9tWCjhZUx">
-    <mxGraphModel>
+    <mxGraphModel dx="688" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-1" target="WAjSE0NDV-iaa13FXcSQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="180" />
+              <mxPoint x="160" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-16" value="注销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WAjSE0NDV-iaa13FXcSQ-14">
+          <mxGeometry x="-0.0288" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.582;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-1" target="WAjSE0NDV-iaa13FXcSQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="451" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-20" value="无权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WAjSE0NDV-iaa13FXcSQ-19">
+          <mxGeometry x="0.4157" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-1" value="主页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-2" target="WAjSE0NDV-iaa13FXcSQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" vertex="1" parent="1">
+          <mxGeometry x="250.75" y="450" width="18.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-4" target="WAjSE0NDV-iaa13FXcSQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-6" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WAjSE0NDV-iaa13FXcSQ-5">
+          <mxGeometry x="-0.0448" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-4" target="WAjSE0NDV-iaa13FXcSQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-4" value="用户名是否正确" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="270" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-8" target="WAjSE0NDV-iaa13FXcSQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-15" value="返回登陆界面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WAjSE0NDV-iaa13FXcSQ-13">
+          <mxGeometry x="-0.396" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-8" value="错误页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="285" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-10" target="WAjSE0NDV-iaa13FXcSQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAjSE0NDV-iaa13FXcSQ-10" target="WAjSE0NDV-iaa13FXcSQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="410" />
+              <mxPoint x="580" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-18" value="直接访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WAjSE0NDV-iaa13FXcSQ-17">
+          <mxGeometry x="0.0252" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAjSE0NDV-iaa13FXcSQ-10" value="登陆页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
