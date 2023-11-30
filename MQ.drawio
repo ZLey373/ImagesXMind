@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T09:06:05.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.4" etag="pu5EpZR3bZVAu5rpCyT7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T06:21:17.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Adzua97rU6zzLIIhc71B" version="22.1.5" type="github">
   <diagram name="第 1 页" id="4gv3G2_DYUCbwfBhQcV8">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-1" target="WwrmDKlZUnJDuyraNP7t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-1" value="MQ状态更新失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-2" target="WwrmDKlZUnJDuyraNP7t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-2" value="worker扫描表发送状态进行补偿发送MQ" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-6" target="WwrmDKlZUnJDuyraNP7t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-6" target="WwrmDKlZUnJDuyraNP7t-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="240" />
+              <mxPoint x="590" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-6" value="指定分库" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-8" target="WwrmDKlZUnJDuyraNP7t-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-8" value="扫描001库" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-11" target="WwrmDKlZUnJDuyraNP7t-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-11" value="扫描002库" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-14" target="WwrmDKlZUnJDuyraNP7t-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-14" value="扫描指定库中所有表" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-17" target="WwrmDKlZUnJDuyraNP7t-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-17" value="发送MQ" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-19" target="WwrmDKlZUnJDuyraNP7t-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1287" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-19" value="发送成功" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-22" value="发货流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-25" value="更新表、MQ更新失败" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1387" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WwrmDKlZUnJDuyraNP7t-28" target="WwrmDKlZUnJDuyraNP7t-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WwrmDKlZUnJDuyraNP7t-28" value="更新表更新MQ成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1227" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
