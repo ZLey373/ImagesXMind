@@ -1,9 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T07:06:33.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.5" etag="CjeUFSk0xMSI7ze0-G5m" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T07:30:53.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="H3TGA5y7-OggumEIvOM4" version="22.1.5" type="github">
   <diagram name="第 1 页" id="0ct7aBkffh-mYrWITwqS">
-    <mxGraphModel>
+    <mxGraphModel dx="1012" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-1" target="B1vlPyCGRhq9o_Q9MNNI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-1" value="活动开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-2" target="B1vlPyCGRhq9o_Q9MNNI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-30" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B1vlPyCGRhq9o_Q9MNNI-5">
+          <mxGeometry x="0.1278" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-2" value="是否存在未执行的抽奖人员" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-4" target="B1vlPyCGRhq9o_Q9MNNI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-4" value="领取活动" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-6" target="B1vlPyCGRhq9o_Q9MNNI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-6" value="校验活动状态" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-8" target="B1vlPyCGRhq9o_Q9MNNI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-8" value="校验日期" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-10" target="B1vlPyCGRhq9o_Q9MNNI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-10" value="校验库存" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-12" target="B1vlPyCGRhq9o_Q9MNNI-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-12" value="校验个人可抽奖次数" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-14" target="B1vlPyCGRhq9o_Q9MNNI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-14" value="redis扣减活动库存" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-16" target="B1vlPyCGRhq9o_Q9MNNI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-16" value="获取分布式锁" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-18" target="B1vlPyCGRhq9o_Q9MNNI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-18" value="插入用户领取活动信息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-20" target="B1vlPyCGRhq9o_Q9MNNI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-20" value="删除分布式锁" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-22" target="B1vlPyCGRhq9o_Q9MNNI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-22" target="B1vlPyCGRhq9o_Q9MNNI-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-22" value="活动领取完成" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="750" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-24" target="B1vlPyCGRhq9o_Q9MNNI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-24" value="发送MO更新信息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-26" value="MQ异步更新活动库存信息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-28" value="活动抽奖" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1vlPyCGRhq9o_Q9MNNI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="616" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1vlPyCGRhq9o_Q9MNNI-32" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B1vlPyCGRhq9o_Q9MNNI-31">
+          <mxGeometry x="0.0289" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
