@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2023-12-01T07:05:58.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="xK4rwWeTEEUV9ShtdWyN" version="22.1.5" type="github">
+  <diagram name="第 1 页" id="rF0yNLYobc240X_mrOFl">
+    <mxGraphModel dx="1002" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-1" target="3jqOPqJyZbJRAJ_SNRTN-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-29" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0083" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-1" value="&lt;p style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;doDrawExec&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="270" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-4" target="3jqOPqJyZbJRAJ_SNRTN-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-27" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.224" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-4" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 15px;&quot;&gt;DrawConfig&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-5" value="存储抽奖策略" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-6" target="3jqOPqJyZbJRAJ_SNRTN-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-28" value="基础" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.23" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;DrawBase&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-8" value="对不同的抽奖策略进行不同的初始化" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-9" target="3jqOPqJyZbJRAJ_SNRTN-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-26" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.2183" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;DrawExecImpl&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-11" value="实现抽奖流程操作" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-13" target="3jqOPqJyZbJRAJ_SNRTN-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-30" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.13" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 15px;&quot;&gt;IDrawAlgorithm&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-15" value="调用具体的抽奖算法的方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-16" target="3jqOPqJyZbJRAJ_SNRTN-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-32" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-20" vertex="1" connectable="0">
+          <mxGeometry x="0.1853" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3jqOPqJyZbJRAJ_SNRTN-16" target="3jqOPqJyZbJRAJ_SNRTN-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-31" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3jqOPqJyZbJRAJ_SNRTN-24" vertex="1" connectable="0">
+          <mxGeometry x="0.2224" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-16" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;BaseAlgorithm&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-18" value="实现了IDrawAlgorithm接口&lt;br&gt;的initRateTuple和isExistRateTuple方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="585" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-19" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;SingleRateRandomDrawAlgorithm&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="780" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-21" value="继承BaseAlgorithm，在此基础上实现单体抽奖算法randomDraw" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="850" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 15px;&quot;&gt;DefaultRateRandomDrawAlgorithm&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="780" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3jqOPqJyZbJRAJ_SNRTN-25" value="继承BaseAlgorithm，在此基础上实现总体&lt;span style=&quot;background-color: initial;&quot;&gt;抽奖算法randomDraw&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="860" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
