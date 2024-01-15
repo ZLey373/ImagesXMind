@@ -1,82 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T11:00:29.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="N-kliKV6ujChfp3D-rE4" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T02:39:25.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="2NDZUM9SxBHS8J2QnOIx" version="22.1.18" type="github">
   <diagram name="第 1 页" id="aMEAPLKQKrwXKtp1F7AF">
-    <mxGraphModel dx="1050" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EouybIMVs8zm6YXtYjRR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-2" target="EouybIMVs8zm6YXtYjRR-3">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-2" target="EouybIMVs8zm6YXtYjRR-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-2" value="针对数据回放的内存和隐私的解决办法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-2" value="针对数据回放的内存和隐私的解决办法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="70" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-3" target="EouybIMVs8zm6YXtYjRR-5">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-3" target="EouybIMVs8zm6YXtYjRR-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-3" value="采用伪特征生成" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-3" value="采用伪特征生成" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-5" target="EouybIMVs8zm6YXtYjRR-22">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EouybIMVs8zm6YXtYjRR-5" target="EouybIMVs8zm6YXtYjRR-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-5" value="基于旧任务原型特征和新任务特征结合的伪特征生成方法的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-5" value="基于旧任务原型特征和新任务特征结合的伪特征生成方法研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-7" target="EouybIMVs8zm6YXtYjRR-10">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-7" target="EouybIMVs8zm6YXtYjRR-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-7" value="采用自适应网络模型架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-7" value="采用自适应网络模型架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-8" target="EouybIMVs8zm6YXtYjRR-7">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-8" target="EouybIMVs8zm6YXtYjRR-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-8" value="针对任务差异性大的问题的解决办法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-8" value="针对任务差异性大的问题的解决办法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="70" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-10" target="EouybIMVs8zm6YXtYjRR-22">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EouybIMVs8zm6YXtYjRR-10" target="EouybIMVs8zm6YXtYjRR-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-10" value="基于多分支网络扩展方法的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-10" value="基于网络扩展策略的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-12" target="EouybIMVs8zm6YXtYjRR-13">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-12" target="EouybIMVs8zm6YXtYjRR-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-12" value="模型主干网络规模和参数量规模的研究" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-12" value="模型主干网络规模和参数量规模的研究" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-13" target="EouybIMVs8zm6YXtYjRR-15">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-13" target="EouybIMVs8zm6YXtYjRR-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-13" value="任务相似性度量的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-13" value="任务相似性度量的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-15" target="EouybIMVs8zm6YXtYjRR-22">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EouybIMVs8zm6YXtYjRR-15" target="EouybIMVs8zm6YXtYjRR-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-15" value="基于散度的算法研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-15" value="基于散度的算法研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-17" target="EouybIMVs8zm6YXtYjRR-18">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-17" target="EouybIMVs8zm6YXtYjRR-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-17" value="增量学习网络模型扩展的研究" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-17" value="增量学习网络模型扩展的研究" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="70" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-18" target="EouybIMVs8zm6YXtYjRR-20">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EouybIMVs8zm6YXtYjRR-18" target="EouybIMVs8zm6YXtYjRR-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-18" value="神经网络架构创建的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-18" value="神经网络架构创建的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="250" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EouybIMVs8zm6YXtYjRR-20" target="EouybIMVs8zm6YXtYjRR-22">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EouybIMVs8zm6YXtYjRR-20" target="EouybIMVs8zm6YXtYjRR-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-20" value="基于NAS神经网络架构搜索的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-20" value="基于NAS神经网络架构搜索的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-22" value="解决增量学习灾难性遗忘的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-22" value="解决增量学习灾难性遗忘的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="690" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
