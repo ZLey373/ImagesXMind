@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T02:39:25.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="2NDZUM9SxBHS8J2QnOIx" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T02:43:05.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="TH8DxV92s6N3otQQNPO5" version="22.1.18" type="github">
   <diagram name="第 1 页" id="aMEAPLKQKrwXKtp1F7AF">
     <mxGraphModel dx="819" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="EouybIMVs8zm6YXtYjRR-20" value="基于NAS神经网络架构搜索的研究" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EouybIMVs8zm6YXtYjRR-22" value="解决增量学习灾难性遗忘的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="EouybIMVs8zm6YXtYjRR-22" value="基于伪特征重放和自适应网络的增量学习方法研究" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="690" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
