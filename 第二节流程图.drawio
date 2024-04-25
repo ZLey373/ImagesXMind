@@ -1,9 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T08:18:56.068Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.8" etag="3z8CZsSg_IXw3My4br4F" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T09:21:07.920Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="c7r_D3I10HXZjRMtC0de" version="24.2.8" type="github">
   <diagram name="第 1 页" id="0C5Ays6j6iC_VC3H75j0">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="410" width="603" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-1" value="Configuration的构造函数中初始化了&lt;div&gt;applicationConfigMap、registryConfigMap、referenceConfigMap&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-2" target="tY6WP6FgKrG7LgXQG7md-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-2" value="&lt;font face=&quot;Helvetica&quot;&gt;GenericReferenceRegistry&lt;/font&gt;&lt;div&gt;获取Configuration中的基础配置，创建Dubbo的服务消费端，获取泛化调用并保存到名为knowGenericReferences的Map中，key值为methodName,即可根据方法名获取泛化调用服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-3" target="tY6WP6FgKrG7LgXQG7md-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-10" value="代理回调函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tY6WP6FgKrG7LgXQG7md-7">
+          <mxGeometry x="0.0158" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-3" value="GenericReferenceProxyFactory&lt;div&gt;使用genericReferenceCache的Map来存储方法名与泛化调用接口直接的映射关系。&lt;span style=&quot;background-color: initial;&quot;&gt;其中泛化调用接口是由代理对象实现的&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="760" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-4" value="GenericReferenceProxy作为enhancer的回调函数。具体的代理类实现MethodInterceptor,在intercept中调用了invoke方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="900" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-12" target="tY6WP6FgKrG7LgXQG7md-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-16" target="tY6WP6FgKrG7LgXQG7md-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-16" target="tY6WP6FgKrG7LgXQG7md-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-16" value="addGenericReferce绑定方法名和泛化调用服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="226" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-17" target="tY6WP6FgKrG7LgXQG7md-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-17" value="GenericReferenceSessionFactory打开会话" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="508" y="630" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="526.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-22" value="访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tY6WP6FgKrG7LgXQG7md-21">
+          <mxGeometry x="-0.0433" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-19" value="发起请求&lt;div&gt;http://localhost:7397/sayHi&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-23" target="tY6WP6FgKrG7LgXQG7md-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-23" value="new SessionServe(Configuration);启动Netty服务的整个流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="730" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-25" target="tY6WP6FgKrG7LgXQG7md-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-28" value="响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tY6WP6FgKrG7LgXQG7md-27">
+          <mxGeometry x="-0.2444" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-25" value="泛化调用服务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-30" target="tY6WP6FgKrG7LgXQG7md-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-30" target="tY6WP6FgKrG7LgXQG7md-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-30" value="new Configuration();配置初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-33" target="tY6WP6FgKrG7LgXQG7md-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-33" value="SessionChanalInitial(Configuration);初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="830" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-35" target="tY6WP6FgKrG7LgXQG7md-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-35" value="new SessionServeHandler(Configuration);创建处理器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="920" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-37" target="tY6WP6FgKrG7LgXQG7md-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-37" target="tY6WP6FgKrG7LgXQG7md-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="1090" />
+              <mxPoint x="40" y="1090" />
+              <mxPoint x="40" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-37" value="configuration.getGenericReference(&quot;sayHi&quot;)获取泛化调用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="920" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-39" value="invoke()执行泛化调用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="820" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tY6WP6FgKrG7LgXQG7md-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tY6WP6FgKrG7LgXQG7md-31" target="tY6WP6FgKrG7LgXQG7md-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
