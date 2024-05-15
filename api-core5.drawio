@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T11:04:01.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="-qzCtTwRqzJtKjusV5Ww" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T11:20:58.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ElQHF2pMUFLnPOq8cIHf" version="24.3.1" type="github">
   <diagram name="第 1 页" id="bUbhFQMuhcvtcKGtJrSe">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LnbISWW5uRTb6eWAR77u-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-1" target="LnbISWW5uRTb6eWAR77u-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-1" value="Netty服务启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-2" target="LnbISWW5uRTb6eWAR77u-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-2" value="BaseHandler&lt;div&gt;(channelRead)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-4" target="LnbISWW5uRTb6eWAR77u-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-4" value="GatewayServerHandler&lt;div&gt;(session)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="447" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-6" target="LnbISWW5uRTb6eWAR77u-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-6" value="RequestParse&lt;div&gt;(parse)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-8" target="LnbISWW5uRTb6eWAR77u-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-8" value="GatewaySessionFactory&lt;div&gt;(openSession)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="847" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-10" target="LnbISWW5uRTb6eWAR77u-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-10" value="gateSession" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="847" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-12" target="LnbISWW5uRTb6eWAR77u-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-12" value="gatewaySession.getMapper" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="847" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-14" target="LnbISWW5uRTb6eWAR77u-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-14" value="IGenericReference" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-16" value="$invoke()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-19" target="LnbISWW5uRTb6eWAR77u-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-19" value="拦截器调用intercept方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-20" value="执行前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="588" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-21" target="LnbISWW5uRTb6eWAR77u-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-21" target="LnbISWW5uRTb6eWAR77u-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-21" value="execute" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-23" target="LnbISWW5uRTb6eWAR77u-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-23" value="gatewaySession.get()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-26" target="LnbISWW5uRTb6eWAR77u-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-26" value="gatewaySession.post()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnbISWW5uRTb6eWAR77u-28" target="LnbISWW5uRTb6eWAR77u-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-33" value="泛化调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LnbISWW5uRTb6eWAR77u-32">
+          <mxGeometry x="-0.35" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-28" value="Connection.execute" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-31" value="reference.$invoke()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnbISWW5uRTb6eWAR77u-35" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;代理生成泛化调用对象&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
