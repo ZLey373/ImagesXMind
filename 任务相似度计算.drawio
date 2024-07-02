@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T11:08:54.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="omVaOHD2qRDenuUXHFSD" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T11:10:44.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="zgmAk36v6BhuprIRhQMZ" version="24.6.4" type="github">
   <diagram name="第 1 页" id="9m2K1JPsWVZdnAYoZKML">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,16 +97,16 @@
             <mxPoint x="730" y="382.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JTuUih5UJX6fKuN7ipx0-28" value="$x_1$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="560" y="450" width="60" height="30" as="geometry" />
+        <mxCell id="JTuUih5UJX6fKuN7ipx0-28" value="$$x_1$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="437.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTuUih5UJX6fKuN7ipx0-29" value="$$x_2$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="555" y="490" width="70" height="30" as="geometry" />
+          <mxGeometry x="740" y="437.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTuUih5UJX6fKuN7ipx0-30" value="$$x_3$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="775" y="437.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JTuUih5UJX6fKuN7ipx0-31" value="Rank" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="JTuUih5UJX6fKuN7ipx0-31" value="排序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="690" y="402.5" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JTuUih5UJX6fKuN7ipx0-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
